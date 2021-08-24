@@ -1,6 +1,7 @@
 import random
 import pyautogui
 
+#characters the while loop will iterate through
 character = "0123456789abcdefghijklmnopqrstuvwxyz"
 character_lst = list(character)
 
