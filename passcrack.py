@@ -5,7 +5,7 @@ import pyautogui
 character = "0123456789abcdefghijklmnopqrstuvwxyz"
 character_lst = list(character)
 
-password = pyautogui.password("Entre password here: ")
+password = pyautogui.password("Enter password here: ")
 
 guess_password = ''
 while (guess_password != password):
